@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
-import Login from './src/screens/Login';
-import BottomTabNavigator from './src/components/BottomTabNavigator';
+import Login from '../MymobileApp/screens/Login';
+import BottomTabNavigator from '../MymobileApp/components/BottomTabNavigator';
 import { Image } from 'react-native';
 
 const Stack = createStackNavigator();

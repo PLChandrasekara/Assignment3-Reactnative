@@ -4,7 +4,7 @@ import Logo from '../components/Logo';
 import Footer from '../components/Footer';
 import { TextInput } from 'react-native-paper';
 import { useState } from 'react';
-import { students } from '../../assets/data/StudentsDb';
+import { students } from '../assets/data/StudentsDb';
 
 export default function Login({ navigation, setUser }) {
   const [form, setForm] = useState({
@@ -72,7 +72,7 @@ export default function Login({ navigation, setUser }) {
         {showErrorMessage && 
           <View style={styles.error}>
             <Image 
-              source={require('../../assets/icons/error.png')} 
+              source={require('../assets/icons/error.png')} 
               style={styles.errorIcon}
             /> 
             <Text style={styles.errorText}>Please check your username and password</Text>

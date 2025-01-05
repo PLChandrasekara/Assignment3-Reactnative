@@ -19,11 +19,11 @@ export default function BottomTabNavigator({route}) {
           let iconSource;
 
           if (route.name === 'Profile') {
-            iconSource = require('../../assets/icons/profile.png');
+            iconSource = require('../assets/icons/profile.png');
           } else if (route.name === 'Courses') {
-            iconSource = require('../../assets/icons/course.png');
+            iconSource = require('../assets/icons/course.png');
           } else if (route.name === 'Subjects') {
-            iconSource = require('../../assets/icons/subjects.png');
+            iconSource = require('../assets/icons/subjects.png');
           }
 
           return (
